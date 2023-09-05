@@ -1,8 +1,17 @@
+#carousel-container img {
+   height: 700px;
+}
+
 #cards-container img {
    height: 400px;
 }
 
 @media screen and (max-width: 767px) {
+
+   #carousel-container img {
+      height: fit-content;
+   }
+
    #cards-container img {
       height: fit-content;
    }
@@ -11,7 +20,7 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 
    #carousel-container img {
-      height: 400px;
+      height: fit-content;
    }
    
    #cards-container img {
