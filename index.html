@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./lib/css_bootstrap.min.css">
+   <link rel="stylesheet" href="index.css">
+   <title>Exercício - Módulo 13</title>
+</head>
+<body>
+   <div class="container mt-3 mb-5 py-5">
+      <div>
+         <h1>Flores cultivadas</h1>
+         <p>Veja algumas das flores que cultivamos em nossos campos</p>
+      </div>
+      <div id="carousel-container" class="carousel carousel-fade slide" data-bs-ride="carousel">
+         <div class="carousel-inner text-center">
+            <div class="carousel-item active" data-bs-interval="3000">
+               <img class="d-block w-100" src="https://images.pexels.com/photos/103573/pexels-photo-103573.jpeg?auto=compress&cs=tinysrgb&w=1600">
+            </div>
+            <div class="carousel-item active" data-bs-interval="3000">
+               <img class="d-block w-100" src="https://images.pexels.com/photos/66896/tulips-flowers-fish-eye-red-66896.jpeg?auto=compress&cs=tinysrgb&w=1600">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+               <img class="d-block w-100" src="https://images.pexels.com/photos/67857/daisy-flower-spring-marguerite-67857.jpeg?auto=compress&cs=tinysrgb&w=1600">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+               <img class="d-block w-100" src="https://images.pexels.com/photos/110083/poppy-flower-klatschmohn-blossom-110083.jpeg?auto=compress&cs=tinysrgb&w=1600">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+               <img class="d-block w-100" src="https://images.pexels.com/photos/868514/pexels-photo-868514.jpeg?auto=compress&cs=tinysrgb&w=1600">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+               <img class="d-block w-100" src="https://images.pexels.com/photos/12925/pexels-photo-12925.jpeg?auto=compress&cs=tinysrgb&w=1600">
+            </div>
+         </div>
+         <div class="carousel-indicators">
+            <button data-bs-target="#carousel-container" data-bs-slide-to="0" class="active" type="button" ></button>
+            <button data-bs-target="#carousel-container" data-bs-slide-to="1" type="button" ></button>
+            <button data-bs-target="#carousel-container" data-bs-slide-to="2" type="button" ></button>
+            <button data-bs-target="#carousel-container" data-bs-slide-to="3" type="button" ></button>
+            <button data-bs-target="#carousel-container" data-bs-slide-to="4" type="button" ></button>
+            <button data-bs-target="#carousel-container" data-bs-slide-to="5" type="button" ></button>
+            <button data-bs-target="#carousel-container" data-bs-slide-to="6" type="button" ></button>
+         </div>
+         <div>
+            <a class="carousel-control-prev" href="#carousel-container" role="button" data-slide="prev">
+               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+               <span class="sr-only"></span>
+             </a>
+             <a class="carousel-control-next" href="#carousel-container" role="button" data-slide="next">
+               <span class="carousel-control-next-icon" aria-hidden="true"></span>
+               <span class="sr-only"></span>
+             </a>
+         </div>
+      </div>
+   </div>
+
+   <div id="cards-container" class="container text-center">
+      <div class="row">
+        <div class="col-sm-4 mb-4">
+            <div class="card">
+               <img src="https://media.istockphoto.com/id/1294416926/pt/foto/isolated-blue-anemone-flower-on-white-background.jpg?s=612x612&w=0&k=20&c=ejpmVh62B_bpzrmnyDdeF8P6sf3Wu3LxzY5U9ayGvjw=">
+               <div class="card-body">
+                  <h3 class="card-title text-white bg-dark pt-1 pb-1">Anêmona</h3>
+                  <h5 class="card-subtitle"><i>Anemone coronaria</i></h5>
+                  <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae numquam iure animi molestias.</p>
+                  <a href="#" class="btn btn-success mt-2 mb-2">Encomendar</a>
+               </div>
+            </div>
+         </div>
+         <div class="col-sm-4 mb-4">
+            <div class="card">
+               <img src="https://media.istockphoto.com/id/157374083/pt/foto/l%C3%ADrio-luxo-roxo-sobre-fundo-branco.jpg?s=612x612&w=0&k=20&c=a6rGrjF2i9BNRMksrv_NvJ8UxFmke72SPsI-C685kF0=">
+               <div class="card-body">
+                  <h3 class="card-title text-white bg-dark pt-1 pb-1">Lírio</h3>
+                  <h5 class="card-subtitle"><i>Lilium</i></h5>
+                  <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae numquam iure animi molestias.</p>
+                  <a href="#" class="btn btn-success mt-2 mb-2">Encomendar</a>
+               </div>
+            </div>
+        </div>
+         <div class="col-sm-4 mb-4">
+            <div class="card">
+               <img src="https://media.istockphoto.com/id/1363388172/pt/foto/hibiscus-or-rose-mallow-flower-tropical-pink-flower-isolated-on-white-background-with-clipping.jpg?s=612x612&w=0&k=20&c=DZSTYeZqKA5NnWCrOxSinOSH0-PweqvffWAR-fofxlk=">
+               <div class="card-body">
+                  <h3 class="card-title text-white bg-dark pt-1 pb-1">Hibisco</h3>
+                  <h5 class="card-subtitle"><i>Hibiscus</i></h5>
+                  <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae numquam iure animi molestias.</p>
+                  <a href="#" class="btn btn-success mt-2 mb-2">Encomendar</a>
+               </div>
+            </div>
+         </div>
+         <div class="col-sm-4 mb-4">
+            <div class="card">
+               <img src="https://media.istockphoto.com/id/622540722/pt/foto/bud-red-peony-2.jpg?s=612x612&w=0&k=20&c=9h0TFE2P27NmGlnaB-D80gn42m8bgrhJoEwkZEYyYps=">
+               <div class="card-body">
+                  <h3 class="card-title text-white bg-dark pt-1 pb-1">Peônia</h3>
+                  <h5 class="card-subtitle"><i>Paeonia</i></h5>
+                  <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae numquam iure animi molestias.</p>
+                  <a href="#" class="btn btn-success mt-2 mb-2">Encomendar</a>
+               </div>
+            </div>
+         </div>
+         <div class="col-sm-4 mb-4">
+            <div class="card">
+               <img src="https://media.istockphoto.com/id/500306545/pt/foto/margarida-decorativa-brilhante-cor-de-laranja.jpg?s=612x612&w=0&k=20&c=nh1TSDZz_nRY8CKekNibuKUF8wwoWlluwgHBirYmPIM=">
+               <div class="card-body">
+                  <h3 class="card-title text-white bg-dark pt-1 pb-1">Calêndula</h3>
+                  <h5 class="card-subtitle"><i>Calendula</i></h5>
+                  <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae numquam iure animi molestias.</p>
+                  <a href="#" class="btn btn-success mt-2 mb-2">Encomendar</a>
+               </div>
+            </div>
+         </div>
+         <div class="col-sm-4 mb-4">
+            <div class="card">
+               <img src="https://media.istockphoto.com/id/1495206809/pt/foto/orange-and-yellow-dahlia-isolated-macro-closeup-on-white-background.jpg?s=612x612&w=0&k=20&c=X7UcEs6WbJ14liYe2AYWTOIvbIDI8r47U56lHT9cdYY=">
+               <div class="card-body">
+                  <h3 class="card-title text-white bg-dark pt-1 pb-1">Dália</h3>
+                  <h5 class="card-subtitle"><i>Dahlia</i></h5>
+                  <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae numquam iure animi molestias.</p>
+                  <a href="#" class="btn btn-success mt-2 mb-2">Encomendar</a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   
+   <script src="./lib/js_bootstrap.bundle.min.js"></script>
+</body>
+</html>
